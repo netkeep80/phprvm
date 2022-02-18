@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-16LE" standalone="no"?>
+<RModel>
+	<Entity>
+		<Ent>-16</Ent>
+		<Sub>-16</Sub>
+		<Rel>-16</Rel>
+		<Obj>-16</Obj>
+		<EntName>ENT</EntName>
+		<Val>{Ent}</Val>
+	</Entity>
+	<Entity>
+		<Ent>-12</Ent>
+		<Sub>-12</Sub>
+		<Rel>-12</Rel>
+		<Obj>-12</Obj>
+		<EntName>SUB</EntName>
+		<Val>{Ent}</Val>
+	</Entity>
+	<Entity>
+		<Ent>-8</Ent>
+		<Sub>-8</Sub>
+		<Rel>-8</Rel>
+		<Obj>-8</Obj>
+		<EntName>REL</EntName>
+		<Val>{Ent}</Val>
+	</Entity>
+	<Entity>
+		<Ent>-4</Ent>
+		<Sub>-4</Sub>
+		<Rel>-4</Rel>
+		<Obj>-4</Obj>
+		<EntName>OBJ</EntName>
+		<Val>{Ent}</Val>
+	</Entity>
+	<Entity>
+		<Ent>-1</Ent>
+		<Sub>-1</Sub>
+		<Rel>-1</Rel>
+		<Obj>-1</Obj>
+		<EntName>NOENT</EntName>
+		<Val>{Ent}</Val>
+	</Entity>
+	<Entity>
+		<Ent>0</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>пусто</EntName>
+		<Val>{Ent}</Val>
+	</Entity>
+	<Entity>
+		<Ent>16848</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>есть отношение, то объект у</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>5589</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>есть отношение, то субъект у</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>2511</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>потом идёт</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>11880</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>и</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>3213</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>, если нет тогда</EntName>
+		<Val>Если {ResSub} пустое тогда {ResObj} </Val>
+	</Entity>
+	<Entity>
+		<Ent>26352</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>субъект и объект одинаковый?</EntName>
+		<Val>{SubCmpObj}</Val>
+	</Entity>
+	<Entity>
+		<Ent>24705</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>буква</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>20304</Ent>
+		<Sub>24705</Sub>
+		<Rel>16848</Rel>
+		<Obj>-12</Obj>
+		<EntName>в конце буква у субъекта</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>13122</Ent>
+		<Sub>24705</Sub>
+		<Rel>16848</Rel>
+		<Obj>-4</Obj>
+		<EntName>в конце буква у объекта</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>3186</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName>и тогда сравнить </EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>26271</Ent>
+		<Sub>20304</Sub>
+		<Rel>3186</Rel>
+		<Obj>13122</Obj>
+		<EntName>сравнение последних букв</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>15012</Ent>
+		<Sub>2511</Sub>
+		<Rel>16848</Rel>
+		<Obj>-12</Obj>
+		<EntName>есть окончание субъекта</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>25866</Ent>
+		<Sub>2511</Sub>
+		<Rel>16848</Rel>
+		<Obj>-4</Obj>
+		<EntName>есть окончание объекта</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>10368</Ent>
+		<Sub>11880</Sub>
+		<Rel>2511</Rel>
+		<Obj>26271</Obj>
+		<EntName>потом сравнение окончаний</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>21195</Ent>
+		<Sub>15012</Sub>
+		<Rel>10368</Rel>
+		<Obj>25866</Obj>
+		<EntName>сравнение окончания</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>16416</Ent>
+		<Sub>12798</Sub>
+		<Rel>12366</Rel>
+		<Obj>26460</Obj>
+		<EntName>сравнение подстроки</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>7749</Ent>
+		<Sub>26352</Sub>
+		<Rel>3213</Rel>
+		<Obj>17280</Obj>
+		<EntName>Строки равны?</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>17280</Ent>
+		<Sub>21195</Sub>
+		<Rel>2511</Rel>
+		<Obj>16416</Obj>
+		<EntName>содержание строк равно?</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>12798</Ent>
+		<Sub>2511</Sub>
+		<Rel>5589</Rel>
+		<Obj>-12</Obj>
+		<EntName>есть подстрока у субъекта</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>26460</Ent>
+		<Sub>2511</Sub>
+		<Rel>5589</Rel>
+		<Obj>-4</Obj>
+		<EntName>есть подстрока у объкта</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>12366</Ent>
+		<Sub>11880</Sub>
+		<Rel>2511</Rel>
+		<Obj>7749</Obj>
+		<EntName>и потом сравнить подстроки</EntName>
+		<Val/>
+	</Entity>
+	<Entity>
+		<Ent>24516</Ent>
+		<Sub>0</Sub>
+		<Rel>0</Rel>
+		<Obj>0</Obj>
+		<EntName/>
+		<Val/>
+	</Entity>
+</RModel>

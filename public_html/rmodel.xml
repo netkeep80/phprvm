@@ -1,0 +1,243 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD>
+<Ent>0</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>0</Obj>
+<Val>$Val = $Ent-&gt;View( $Ent )-&gt;Val;</Val>
+<EntName>Ent</EntName>
+<EntDesc>Возвращает сущность - контекст исполнения</EntDesc>
+</RECORD>
+<RECORD>
+<Ent>1</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>1</Obj>
+<Val>$Val .= $Ent-&gt;View( $Sub )-&gt;Val;</Val>
+<EntName>Sub</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>2</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>2</Obj>
+<Val>$Val .= $Ent-&gt;View( $Rel )-&gt;Val;</Val>
+<EntName>Rel</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>3</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>3</Obj>
+<Val>$Val .= $Ent-&gt;View( $Obj )-&gt;Val;</Val>
+<EntName>Obj</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>4</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>4</Obj>
+<Val>$Val .= $Ent-&gt;Val;</Val>
+<EntName>Val</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>5</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>5</Obj>
+<Val>$Val = &apos;echo &quot;&apos;;
+$Val .= $Obj-&gt;EntName;
+$Val .= &apos;&quot;;&apos;;</Val>
+<EntName>EntName</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>6</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>6</Obj>
+<Val>$Val = &apos;echo &quot;&apos;;
+$Val .= $Obj-&gt;EntDesc;
+$Val .= &apos;&quot;;&apos;;</Val>
+<EntName>EntDesc</EntName>
+<EntDesc>Возвращает описание сущности</EntDesc>
+</RECORD>
+<RECORD>
+<Ent>100</Ent>
+<Sub>0</Sub>
+<Rel>0</Rel>
+<Obj>0</Obj>
+<Val>$Val .= $Ent-&gt;View( $Sub )-&gt;Val;
+$Val .= &apos;; &apos;;
+$Val .= $Ent-&gt;View( $Obj )-&gt;Val;</Val>
+<EntName>; </EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>101</Ent>
+<Sub>1</Sub>
+<Rel>100</Rel>
+<Obj>3</Obj>
+<Val></Val>
+<EntName>$Sub; $Obj</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>200</Ent>
+<Sub>200</Sub>
+<Rel>200</Rel>
+<Obj>200</Obj>
+<Val>$tmp =  $this-&gt;View( $this )-&gt;Val;
+$Val = &apos;?&gt;&lt;h2&gt;&lt;?&apos; . $tmp . &apos;?&gt;&lt;/h2&gt;&lt;?&apos;;</Val>
+<EntName>h2</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>201</Ent>
+<Sub>201</Sub>
+<Rel>201</Rel>
+<Obj>201</Obj>
+<Val>$tmp =  $this-&gt;View( $this )-&gt;Val;
+$Val = &apos;?&gt;&lt;span style=&quot;color:#00ff00&quot;&gt;&lt;?&apos; . $tmp .&apos;?&gt;&lt;/span&gt;&lt;?&apos;;
+</Val>
+<EntName>green</EntName>
+<EntDesc>Надпись зелёного цвета</EntDesc>
+</RECORD>
+<RECORD>
+<Ent>1000</Ent>
+<Sub>1005</Sub>
+<Rel>100</Rel>
+<Obj>1002</Obj>
+<Val></Val>
+<EntName>title1;a;b</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>1001</Ent>
+<Sub>1001</Sub>
+<Rel>5</Rel>
+<Obj>1001</Obj>
+<Val></Val>
+<EntName>a</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>1002</Ent>
+<Sub>1002</Sub>
+<Rel>5</Rel>
+<Obj>1002</Obj>
+<Val></Val>
+<EntName>b</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>1003</Ent>
+<Sub>1003</Sub>
+<Rel>5</Rel>
+<Obj>1003</Obj>
+<Val></Val>
+<EntName>c</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>1004</Ent>
+<Sub>1000</Sub>
+<Rel>100</Rel>
+<Obj>1003</Obj>
+<Val></Val>
+<EntName>title1; a; b; c</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>1005</Ent>
+<Sub>2000</Sub>
+<Rel>100</Rel>
+<Obj>1001</Obj>
+<Val></Val>
+<EntName>title1; a</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>2000</Ent>
+<Sub>2000</Sub>
+<Rel>4001</Rel>
+<Obj>1004</Obj>
+<Val></Val>
+<EntName>title1</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>3000</Ent>
+<Sub>3000</Sub>
+<Rel>3000</Rel>
+<Obj>3000</Obj>
+<Val>?&gt;&lt;div class=&quot;rmodel&quot; style=&quot;margin:10px;&quot;&gt;
+ &lt;h2&gt;New entity creation&lt;/h2&gt;
+ &lt;form id=&quot;myForm&quot; name=&quot;myForm&quot; onsubmit=&quot;return false;&quot;&gt;
+  &lt;fieldset&gt;
+   &lt;b&gt;Id-------&gt;&lt;/b&gt;&lt;input type=&quot;text&quot; name=&quot;EntId&quot; id=&quot;EntId&quot; value=&quot;&quot; placeholder=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+   &lt;b&gt;Sub------&gt;&lt;/b&gt;&lt;input type=&quot;text&quot; name=&quot;SubId&quot; id=&quot;SubId&quot; value=&quot;&quot; placeholder=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+   &lt;b&gt;Rel------&gt;&lt;/b&gt;&lt;input type=&quot;text&quot; name=&quot;RelId&quot; id=&quot;RelId&quot; value=&quot;&quot; placeholder=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+   &lt;b&gt;Obj------&gt;&lt;/b&gt;&lt;input type=&quot;text&quot; name=&quot;ObjId&quot; id=&quot;ObjId&quot; value=&quot;&quot; placeholder=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+   &lt;b&gt;Value-&gt;&lt;/b&gt;&lt;input type=&quot;text&quot; name=&quot;EntValue&quot; id=&quot;EntValue&quot; value=&quot;&quot; placeholder=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+   &lt;b&gt;Name--&gt;&lt;/b&gt;&lt;input type=&quot;text&quot; name=&quot;EntName&quot; id=&quot;EntName&quot; value=&quot;&quot; placeholder=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+   &lt;button id=&quot;AddEnt&quot;&gt;Add Entity&lt;/button&gt;
+  &lt;/fieldset&gt;
+ &lt;/form&gt;
+ &lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.min.js?1017-01&quot;&gt;&lt;/script&gt;
+ &lt;script type=&quot;text/javascript&quot; src=&quot;/js/example.ui.js?1017-01&quot; &gt;&lt;/script&gt;
+&lt;/div&gt;</Val>
+<EntName>New entity creation</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>4000</Ent>
+<Sub>200</Sub>
+<Rel>101</Rel>
+<Obj>201</Obj>
+<Val></Val>
+<EntName>h2; green</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>4001</Ent>
+<Sub>2000</Sub>
+<Rel>100</Rel>
+<Obj>4000</Obj>
+<Val></Val>
+<EntName>title1; h2; green</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>4002</Ent>
+<Sub>1001</Sub>
+<Rel>100</Rel>
+<Obj>1002</Obj>
+<Val></Val>
+<EntName>a; b</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>4003</Ent>
+<Sub>4003</Sub>
+<Rel>200</Rel>
+<Obj>1001</Obj>
+<Val></Val>
+<EntName>h2(a)</EntName>
+<EntDesc></EntDesc>
+</RECORD>
+<RECORD>
+<Ent>4004</Ent>
+<Sub>4004</Sub>
+<Rel>4000</Rel>
+<Obj>3000</Obj>
+<Val></Val>
+<EntName></EntName>
+<EntDesc></EntDesc>
+</RECORD>
+</RECORDS>

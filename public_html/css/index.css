@@ -1,0 +1,19 @@
+@import url("jquery/ui.css");
+
+* { margin:0px;padding:0px; }
+html { overflow-y:scroll;}
+.clear{ display:block;height:1px;clear:both;visibility:hidden;}
+a { color:#0073ea; }
+
+body { font:12px/16px verdana; color:#535353; }
+
+.exterrior { }
+.interrior { margin:20px auto 0px; position:relative; }
+.interrior_old { width:990px; }
+
+table.data { border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-collapse:collapse; }
+table.data tr td, table.data tr th { border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; background-color:#fff; padding: 3px 5px; }
+table.data tr th { background:#fff url(/css/jquery/images/ui-bg_highlight-soft_50_dddddd_1x100.png) 50% 50% repeat-x; font-size:90%; }
+table.data tr.alt td { background:#fff url(/css/jquery/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png) 50% 50% repeat-x; }
+table.data tr.active td, table.data tr:hover td { color:#0073ea; }
+

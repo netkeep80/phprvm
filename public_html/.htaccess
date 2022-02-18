@@ -1,0 +1,14 @@
+
+php_flag display_errors on
+php_value upload_max_filesize 20M
+php_value post_max_size 40M
+php_flag magic_quotes_gpc off
+
+#RewriteEngine On
+#RewriteBase /
+
+#RewriteRule ^(axcall|axupload)/([^\/]+)\/?$ $1.php?action=$2 [QSA,L]
+
+# BEGIN WordPress
+
+# END WordPress
